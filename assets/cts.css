@@ -1,9 +1,9 @@
 /* Called to Speak funnel styles. Gold + wine on near-black (brand switch 2026-11-02, tokens read from Meghan's
    speaker booking site): ink #080807, charcoal #11100F, ivory #F1E9DC, paper #FBF7F0, gold #CFAD6F, wine #610D22.
-   Display = Libre Baskerville (stand-in for Iowan Old Style), sentence case; labels/buttons = Helvetica Neue 700 caps. */
+   Display = her exact stack: Iowan Old Style, Baskerville, Times New Roman (no web font, same as her site), sentence case; labels/buttons = Helvetica Neue 700 caps. */
 :root{--ink:#080807;--charcoal:#11100F;--ivory:#F1E9DC;--paper:#FBF7F0;--gold:#CFAD6F;--wine:#610D22;--wine2:#3D0815;
   --line:#2B2824;--line-l:#E2D8C8;--t-dark:#E4DACB;--t-mute:#B9ADA0;--t-light:#5A524A;--field:#15130F;
-  --serif:'Libre Baskerville','Iowan Old Style',Baskerville,'Times New Roman',serif;--sans:'Helvetica Neue',Arial,sans-serif}
+  --serif:"Iowan Old Style",Baskerville,"Times New Roman",serif;--sans:'Helvetica Neue',Arial,sans-serif}
 *{box-sizing:border-box}
 html{-webkit-text-size-adjust:100%}
 body{margin:0;font-family:var(--sans);font-size:18px;line-height:1.6;color:var(--ink);background:var(--paper)}
@@ -127,3 +127,7 @@ details p{margin-top:12px;color:var(--t-light)}
 .wine em{color:var(--gold)}
 .wine .lead,.wine p{color:var(--t-dark)}
 [tabindex="-1"]:focus{outline:none}
+/* Her wordmark, set exactly as on her speaker booking site (no logo file exists): small sans MEGHAN + serif STIMMEL */
+.wordmark{font-family:var(--serif);font-size:18px;font-weight:400;letter-spacing:.08em;color:var(--ivory);text-decoration:none;white-space:nowrap;line-height:1}
+.wordmark span{font-family:var(--sans);font-size:12px;font-weight:700;letter-spacing:.19em}
+.foot-mark{margin-bottom:6px}
