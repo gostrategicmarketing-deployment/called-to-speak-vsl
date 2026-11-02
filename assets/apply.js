@@ -53,7 +53,7 @@ document.addEventListener('DOMContentLoaded', function () {
         '<label>Email<input type="email" name="email" autocomplete="email" required value="' + E(who.email || '') + '"></label><label>Phone<input type="tel" name="phone" autocomplete="tel" required value="' + E(who.phone || '') + '"></label></div>' +
         '<label>Instagram handle or website<input type="text" name="handle" value="' + E(who.handle || '') + '"></label>' +
         '<label class="consent"><input type="checkbox" name="sms">I agree to receive text messages about my call. Message and data rates may apply. Reply STOP to opt out.</label>' +
-        '<figure class="card" style="background:transparent;border-color:var(--line);padding:20px 24px"><blockquote style="font-size:18px;color:var(--t-dark)">"You activate it in me, girl! Unlike anyone else (including pastors and priests)."</blockquote><figcaption style="font-size:14px;color:#9A9893;margin-top:8px">Katelyn Pennell, founder of Body Based Scaling</figcaption></figure>' +
+        '<figure class="card" style="background:transparent;border-color:var(--line);padding:20px 24px"><blockquote style="font-size:18px;color:var(--t-dark)">"You activate it in me, girl! Unlike anyone else (including pastors and priests)."</blockquote><figcaption style="font-size:14px;color:#B9ADA0;margin-top:8px">Katelyn Pennell, founder of Body Based Scaling</figcaption></figure>' +
         '<div id="err"></div><button type="submit" class="btn lg">Submit my application</button>' +
         '<p class="fine">Every application is read personally. We never sell your information.' + privacy() + '</p></form>' + back());
       app.querySelector('#f').onsubmit = function (ev) {

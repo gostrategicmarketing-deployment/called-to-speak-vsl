@@ -12,7 +12,7 @@ window.CTS_CONFIG = {
   retreatPhotos: [],      // real Untamed 2.0 photos, with attendee consent
   academyCohort: '',      // e.g. "Next cohort Nov 10" once Meghan confirms (shown on the Academy card)
   challengeDates: '',     // next dates for the $33 challenge
-  showFox2: false,        // UNCONFIRMED: FOX 2 Detroit credit
-  showWotY: false,        // UNCONFIRMED: Birmingham Lifestyle 2025 Woman of the Year
+  showFox2: false,        // VERIFIED 2026-11-02: 3 FOX 2 Detroit segments (see brand/verified-facts.md); turn on when Phil OKs
+  showWotY: false,        // VERIFIED 2026-11-02 as "2025 Women of Birmingham" (Birmingham City Lifestyle honoree list), NOT Woman of the Year
   scarcity: ''            // only with a real number, e.g. "Limited to 4 private clients each quarter"
 };

@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', function () {
   (C.retreatPhotos || []).forEach(function (src) {
     var d = document.createElement('div');
     d.setAttribute('role', 'img'); d.setAttribute('aria-label', 'Untamed retreat');
-    d.style.cssText = 'aspect-ratio:4/3;border-radius:12px;background:#1C161A center/cover no-repeat;background-image:url(' + src + ')';
+    d.style.cssText = 'aspect-ratio:4/3;border-radius:0;background:#11100F center/cover no-repeat;background-image:url(' + src + ')';
     grid.insertBefore(d, grid.firstChild);
   });
   var bar = document.getElementById('stickyBar'), hero = document.getElementById('heroCta');

@@ -48,7 +48,7 @@
   C.mountVideo = function (el, url, label) {
     if (!el) return;
     if (url) { el.innerHTML = '<iframe title="' + C.esc(label) + '" src="' + C.esc(url) + '" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen loading="lazy"></iframe>'; return; }
-    el.innerHTML = '<div class="play"><svg width="34" height="34" viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5v14l11-7z" fill="#000"/></svg></div><div>[' + C.esc(label) + ']</div>';
+    el.innerHTML = '<div class="play"><svg width="34" height="34" viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5v14l11-7z" fill="#080807"/></svg></div><div>[' + C.esc(label) + ']</div>';
   };
 
   document.addEventListener('DOMContentLoaded', function () {
